@@ -10,7 +10,7 @@
     "memory_capacity": 15000,
     "target_update": 512,
     "exploration": {
-        "method": "EpsilonGreedy",
+        "method": "Boltzmann",
         "tau": 150,
         "temperature": 1.0,
         "final_temperature": 0.05
