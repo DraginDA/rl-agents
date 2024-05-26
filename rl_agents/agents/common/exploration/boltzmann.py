@@ -19,7 +19,7 @@ class Boltzmann(DiscreteDistribution):
 
     @classmethod
     def default_config(cls):
-        return dict(temperature=0.5)
+        return dict(temperature=0.25)
 
     def get_distribution(self):
         actions = range(self.action_space.n)
