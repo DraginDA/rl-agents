@@ -12,7 +12,7 @@
     "exploration": {
         "method": "Boltzmann",
         "tau": 150,
-        "temperature": 1.0,
+        "temperature": 0.25,
         "final_temperature": 0.05
     }
 }
