@@ -27,7 +27,7 @@ class EpsilonGreedy(DiscreteDistribution):
     def default_config(cls):
         return dict(temperature=0.5,
                     final_temperature=0.1,
-                    tau=500)
+                    tau=750)
 
     def get_distribution(self):
         distribution = {action: self.epsilon / self.action_space.n for action in range(self.action_space.n)}
