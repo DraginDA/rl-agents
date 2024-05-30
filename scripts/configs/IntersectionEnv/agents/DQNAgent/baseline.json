@@ -2,9 +2,9 @@
     "__class__": "<class 'rl_agents.agents.deep_q_network.pytorch.DQNAgent'>",
     "model": {
         "type": "MultiLayerPerceptron",
-        "layers": [128, 128]
+        "layers": [128, 128, 128]
     },
-    "gamma": 0.95,
+    "gamma": 0.50,
     "n_steps": 1,
     "batch_size": 64,
     "memory_capacity": 15000,
