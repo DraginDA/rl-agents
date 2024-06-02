@@ -4,14 +4,14 @@
         "type": "MultiLayerPerceptron",
         "layers": [128, 128, 128]
     },
-    "gamma": 0.95,
+    "gamma": 0.15,
     "n_steps": 1,
     "batch_size": 32,
     "memory_capacity": 15000,
     "target_update": 512,
     "exploration": {
         "method": "EpsilonGreedy",
-        "tau": 15000,
+        "tau": 7500,
         "temperature": 1,
         "final_temperature": 0.05
     }
